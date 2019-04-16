@@ -1,3 +1,9 @@
+/* 
+	exemplos do map() programação funcional
+	Organizar esse codigo 
+
+*/
+
 let open = [3,2,4,5,3,2,7,8];
 
 const execute = open.map(( elem ) => {
@@ -26,6 +32,6 @@ const exc = time.map((elem) => {
 	return elem;
 })
 
-module.export = execute;
+module.exports = execute;
 
 
