@@ -4,8 +4,6 @@ const execute = open.map(( elem ) => {
 	return Math.round(elem);
 })
 
-console.log(execute)
-
 let time = [
 	{
 		nome:"Marilda",
@@ -28,7 +26,6 @@ const exc = time.map((elem) => {
 	return elem;
 })
 
-console.log(exc)
-
+module.export = execute;
 
 
