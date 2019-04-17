@@ -3,17 +3,31 @@
 	Tentando resolver o problema do export e a função de calculo da função 
 */
 
-const log = () => {
-	const list = [0,3,2,34,234,3];
-	const soma = list.map((elem) => {
-		return Math.round(elem);
-	})
-}
+const caras = [
+	{
+		nome:"Jairo",
+		idade:45,
+		type:"Pessoa",
+		saldo_devedor:1.20
+	},
+	{
+		nome:"Marilda",
+		idade:30,
+		type:"Pessoa",
+		saldo_devedor:345.23
+	},
+	{
+		nome:"Paulo",
+		idade:20,
+		type:"Pessoa",
+		saldo_devedor:23
+	}
+]
 
-const los = [23,434,34,3,45,4,2]
-const som = los.map((elem)=>{
-	return Math.round(elem);
-})
+// Soma de valores de um arrey que doidooooo cara programar funcional e muit top!!!
+const soma_de_valores = caras.reduce((soma, tr) => {
+	return soma + tr.saldo_devedor;
+},0)
 
-module.exports = som;
+module.exports = soma_de_valores;
 
