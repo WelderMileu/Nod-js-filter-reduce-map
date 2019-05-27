@@ -20,7 +20,7 @@ const caras = [
 		nome:"Paulo",
 		idade:20,
 		type:"Pessoa",
-		saldo_devedor:23
+		saldo_devedor:100.23
 	}
 ]
 
